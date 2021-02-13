@@ -28,3 +28,7 @@ Answer for Task 2
 Answer for Task 3
 > star_data <- datasaurus_dozen %>% filter(dataset == "star")
 > ggplot(data = star_data, mapping = aes(x = x, y = y)) + geom_point()
+
+Answer for Task 4
+> circle_data <- datasaurus_dozen %>% filter(dataset == "circle")
+>ggplot(data = circle_data, mapping = aes(x = x, y = y)) + geom_point()
